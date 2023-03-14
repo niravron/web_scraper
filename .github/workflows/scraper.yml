@@ -18,6 +18,7 @@ jobs:
         - run: |
               git config --global user.email "avron.nir@gmail.com"
               git config --global user.name "niravron"
-              git commit -m "Automated Update"
+              git add .
+              git commit -m "Do Automated Update"
               git push
 
