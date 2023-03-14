@@ -17,7 +17,7 @@ HTML_TEMPLATE = '''
 '''
 
 
-response = requests.get("https://en.wikipedia.org/wiki/Cristiano_Ronaldo")
+response = requests.get("https://en.wikipedia.org/wiki/Roger_Federer")
 
 if response.status_code == 200:
     soup = BeautifulSoup(response.content, "html.parser")
