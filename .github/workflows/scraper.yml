@@ -1,7 +1,7 @@
 name: Get Wiki
 
 on:
-  workflow_dipatch:
+  workflow_dispatch:
 
 jobs: 
   scrapewiki:
